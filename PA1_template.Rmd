@@ -10,6 +10,7 @@ output:
 ## Loading and preprocessing the data
 
 ```{r}
+##Please note-- I am re-taking this course so some of the commits are old
 unzip("activity.zip")
 act <- read.csv("activity.csv", header = TRUE)
 ```
